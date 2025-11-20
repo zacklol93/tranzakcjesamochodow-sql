@@ -1,5 +1,3 @@
-(
-
 SELECT 
     clients.id AS klient_id,
     clients.first_name,
@@ -51,4 +49,4 @@ SELECT
 FROM clients
 JOIN cars ON clients.id = cars.client_id
 ORDER BY cena_po_rabatach_zł DESC;
-)
+
