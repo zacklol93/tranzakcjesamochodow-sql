@@ -1,4 +1,4 @@
-
+t
 
 SELECT 
     clients.id AS klient_id,
