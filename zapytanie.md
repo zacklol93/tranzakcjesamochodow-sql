@@ -1,3 +1,5 @@
+
+
 SELECT 
     clients.id AS klient_id,
     clients.first_name,
@@ -30,7 +32,7 @@ SELECT
           END)
         * 
         CASE
-            WHEN clients.email LIKE '%apple%' THEN 4.0
+            WHEN clients.email LIKE '%apple%' THEN 1.4
             ELSE 1
         END
         *
